@@ -12,6 +12,8 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import modelbuild
 
